@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root{
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --veryDarkBlueBg: hsl(217, 54%, 11%);
+    --veryDarkBlueCard: hsl(216, 50%, 16%);
+    --veryDarkBlueLine: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+
+*{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+body{
+    display: flex;
+    background-color: var(--veryDarkBlueBg);
+}
